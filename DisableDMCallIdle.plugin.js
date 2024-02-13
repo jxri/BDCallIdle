@@ -5,7 +5,7 @@
  * @version 1.0.1
  * @description Disables automatically getting kicked from a DM voice call after 3 minutes.
  * @source https://github.com/jxri/BDCallIdle
- * @updateUrl https://jxri.github.io/BDCallIdle/DisableDMCallIdle.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/jxri/BDCallIdle/main/DisableDMCallIdle.plugin.js
  */
 
 /*@cc_on
@@ -48,21 +48,21 @@ module.exports = (() => {
           "Disables automatically getting kicked from a DM voice call after 3 minutes.",
         github: "https://github.com/jxri/BDCallIdle",
         github_raw:
-          "https://jxri.github.io/BDCallIdle/DisableDMCallIdle.plugin.js",
+          "https://raw.githubusercontent.com/jxri/BDCallIdle/main/DisableDMCallIdle.plugin.js",
       },
       changelog: [
         {
-          title: "v1.0.1",
-          items: [
-            "Removal of 1BunnyLib library",
-          ],
+            title: "v1.0.1",
+            items: [
+              "Removal of 1BunnyLib library",
+            ],
         },
         {
-          title: "v1.0.0",
-          items: [
-            "This is the initial release of the plugin :)",
-            "I :3 wannya *looks at you* cuddwe w-w-with my fiancee :3 (p≧w≦q)",
-          ],
+            title: "v1.0.0",
+            items: [
+                "This is the initial release of the plugin :)",
+                "I :3 wannya *looks at you* cuddwe w-w-with my fiancee :3 (p≧w≦q)",
+            ],
         }
       ],
       main: "DisableDMCallIdle.plugin.js",
